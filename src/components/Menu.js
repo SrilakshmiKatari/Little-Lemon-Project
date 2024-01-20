@@ -9,12 +9,12 @@ const Menu = () =>{
         console.log(id, "id is clicked");
         Swal.fire({
             title: "Are you sure?",
-            text: "You won't be able to revert this!",
-            icon: "warning",
+            text: "You want to Order this!",
+            icon: "info",
             showCancelButton: true,
             confirmButtonColor: "#3085d6",
             cancelButtonColor: "#d33",
-            confirmButtonText: "Yes, delete it!"
+            confirmButtonText: "Yes, Confirm!"
             }).then((result) => {
             if (result.isConfirmed) {
                 Swal.fire({
